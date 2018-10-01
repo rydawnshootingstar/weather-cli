@@ -4,8 +4,8 @@ const weatherjs = require('../weather/weather');
 
 var geocodeAddress = (item, callbackFunction) =>
 {
-    var web = ('https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(item));
-
+    var web = ('https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(item)+'&key=AIzaSyDdoc8fZ_K_LSSj2jujWzD0rliRK_OvT2M');
+console.log(web);
     if (web.includes('420') || web.includes('69')) {
         console.log('nice');
     }
