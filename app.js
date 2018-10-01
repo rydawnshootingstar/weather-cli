@@ -15,7 +15,7 @@ const yargv = yargs
     .alias('help', 'h')
     .argv;
 
-//create request url w api key
+//create request url w api
 var website = ('https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(yargv.address)+'&key=AIzaSyDdoc8fZ_K_LSSj2jujWzD0rliRK_OvT2M');
 console.log(website);
 //axios recommends calling the variable response.
